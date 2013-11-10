@@ -1,0 +1,107 @@
+/* Layout
+ * ------
+ * Using a negative margin technique, adapted from ZEN. The page is loaded by this order:
+ *
+ * 1. Header
+ * 2. Content
+ * 3. Navigation menus
+ * 4. Sidebar Left
+ * 5. Sideabr Right */
+/* Layout rules. (Disclaimer: do not change if you're not sure you know what you're doing.) */
+#page {
+  width: 100%;
+}
+#header,
+#main,
+#footer {
+  width: 980px;
+  margin: 0 auto;
+}
+#header-wrapper {
+  height: 60px;
+  background: #202020;
+}
+#main-wrapper {
+  background: #f2f2f2;
+}
+#footer-wrapper {
+  height: 58px;
+  background: #e2e2e2;
+}
+#footer .copyright {
+  color: #828282;
+  font-size: 12px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.no-sidebars #content {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+
+.one-sidebar.sidebar-second #content {
+  display: block;
+  float: left;
+  width: 735px;
+}
+
+.one-sidebar.sidebar-first #content {
+  display: block;
+  float: left;
+  width: 735px;
+  margin-left: 245px;
+}
+
+.two-sidebars #content {
+  display: block;
+  float: left;
+  width: 490px;
+}
+
+#sidebar-first {
+  display: block;
+  float: left;
+  width: 245px;
+}
+
+.sidebar-first #sidebar-first {
+  margin-left: -100%;
+}
+
+
+#sidebar-second {
+  display: block;
+  float: left;
+  width: 245px;
+}
+
+#footer {
+  float: none;
+  clear: both;
+}
+
+/* Layout Helpers */
+#header,
+#footer,
+.mission,
+.breadcrumb,
+.node {
+  clear: both;
+}
+
+/* Columns Inner
+ * -------------
+ * You can change the padding inside the columns without changing the
+ * width of them by just usinbg the INNER div of each column */
+.inner {
+  padding: 0;
+}
+
+/* Navigation styles */
+#navigation li {
+  list-style-type: none;
+  display: inline-block;
+}

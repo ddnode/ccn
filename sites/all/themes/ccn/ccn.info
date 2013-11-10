@@ -1,0 +1,29 @@
+name = Class Cloud Network
+description = 云课网主题
+core = 7.x
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer] = Footer
+
+features[] = logo
+features[] = name
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; Stylesheets
+stylesheets[all][] = css/default.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/normalize.css
+stylesheets[print][] = css/print.css
+
+; Scripts
+scripts[] = js/modernizr.js
