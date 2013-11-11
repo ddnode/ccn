@@ -71,3 +71,7 @@ div.block .edit a {
 div.block:hover .edit {
   display: block;
 }
+
+img {
+  vertical-align: bottom;
+}

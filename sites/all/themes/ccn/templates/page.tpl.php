@@ -23,6 +23,12 @@
     </div>
   </div>
 
+  <?php if ($page['front_hot']): ?>
+    <div id="front-hot-wrapper">
+      <div id="front-hot"><?php print render($page['front_hot']); ?></div>
+    </div>
+  <?php endif; ?>
+
   <div id="main-wrapper">
     <div id="main" class="clearfix">
       <div id="content">

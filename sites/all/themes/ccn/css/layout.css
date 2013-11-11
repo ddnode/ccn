@@ -12,6 +12,7 @@
   width: 100%;
 }
 #header,
+#front-hot,
 #main,
 #footer {
   width: 980px;
@@ -20,6 +21,10 @@
 #header-wrapper {
   height: 60px;
   background: #202020;
+}
+#front-hot-wrapper {
+  height: 435px;
+  background: url(../images/front-hot.png) repeat-x;
 }
 #main-wrapper {
   background: #f2f2f2;
@@ -59,12 +64,14 @@
   display: block;
   float: left;
   width: 490px;
+  margin-left: 245px;
 }
 
 #sidebar-first {
   display: block;
   float: left;
   width: 245px;
+  margin-left: -735px;
 }
 
 .sidebar-first #sidebar-first {

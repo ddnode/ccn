@@ -3,6 +3,7 @@ description = 云课网主题
 core = 7.x
 
 regions[header] = Header
+regions[front_hot] =Front hot
 regions[highlighted] = Highlighted
 regions[help] = Help
 regions[content] = Content
