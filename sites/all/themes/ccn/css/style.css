@@ -199,7 +199,7 @@ div.status {
 #navigation .main-menu {
   font-size: 18px;
   font-family: "微软雅黑";
-  margin: 16px 0 0 25px;
+  margin: 16px 0 0 30px;
 }
 #navigation .main-menu li {
   display: block;
@@ -213,7 +213,7 @@ div.status {
   height: 30px;
   line-height: 30px;
   text-align: center;
-  margin: 0 15px;
+  margin: 0 10px;
 }
 #navigation .main-menu a:hover,
 #navigation .main-menu a.active {
@@ -228,6 +228,10 @@ div.status {
   list-style: none;
   float: left;
 }
+#navigation .sub-menu li.first {
+  padding-left: 20px;
+  background: url(../images/login.png) no-repeat;
+}
 #navigation .sub-menu a {
   color: #898989;
   display: block;
@@ -236,6 +240,27 @@ div.status {
 #navigation .sub-menu a:hover,
 #navigation .sub-menu a.active {
   color: #f2f2f2;
+}
+
+#header-region {
+  display: block;
+  height: 60px;
+  float: right;
+}
+#search-block-form .form-actions {
+  display: none;
+}
+#search-block-form .form-text {
+  margin-top: 17px;
+  width: 187px;
+  height: 24px;
+  border: none;
+  border-radius: 14px/12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(../images/search.png) no-repeat #fff;
+  padding-left: 30px;
 }
 
 #block-menu-menu-footer-menu .menu {
