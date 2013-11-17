@@ -369,3 +369,71 @@ div.status {
   text-decoration: none;
   background: url(../images/hot-menu-active.png) 134px 16px no-repeat;
 }
+#block-views-hot-courses-block {
+  padding-left: 5px;
+}
+#block-views-hot-courses-block h2 {
+  padding-left: 10px;
+}
+#block-views-hot-courses-block .view-hot-courses {
+  border-top: 1px solid #e2e2e2;
+}
+#block-views-hot-courses-block .views-row {
+  margin: 20px 5px 0 5px;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  padding: 3px;
+  float: left;
+}
+#block-views-hot-courses-block .views-field-title,
+#block-views-hot-courses-block .views-field-created,
+#block-views-hot-courses-block .views-field-view-node {
+  padding: 0 8px;
+  line-height: 2em;
+}
+#block-views-hot-courses-block .views-field-title {
+  font-size: 14px;
+  color: #828282;
+}
+#block-views-hot-courses-block .views-field-created {
+  font-size: 12px;
+  color: #828282;
+}
+#block-views-hot-courses-block .views-field-view-node {
+  float: right;
+  text-align: center;
+  background: #3399cc;
+  width: 85px;
+  height: 30px;
+  line-height: 30px;
+  margin: 15px 0 10px;
+}
+#block-views-hot-courses-block .views-field-view-node a {
+  color: #fff;
+  font-size: 14px;
+}
+.item-list .pager {
+  padding: 20px 0;
+  letter-spacing: -3px;
+}
+.item-list .pager li {
+  display: inline-block !important;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  background: #e2e2e2;
+  padding: 0;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+.item-list .pager li a {
+  display: block;
+  color: #000;
+}
+.item-list .pager .pager-current {
+  background: #fff;
+  border: 1px solid #3399cc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
