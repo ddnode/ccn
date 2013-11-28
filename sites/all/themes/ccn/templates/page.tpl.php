@@ -10,13 +10,13 @@
 
       <?php if ($main_menu || $secondary_menu): ?>
         <div id="navigation" class="menu">
-          <?php print theme('links', array('links' => $main_menu, 'attributes' => array('id' => 'primary', 'class' => array('links', 'clearfix', 'main-menu')))); ?>
           <?php print theme('links', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary', 'class' => array('links', 'clearfix', 'sub-menu')))); ?>
         </div>
       <?php endif; ?>
 
       <?php if ($page['header']): ?>
         <div id="header-region">
+          <?php print theme('links', array('links' => $main_menu, 'attributes' => array('id' => 'primary', 'class' => array('links', 'clearfix', 'main-menu')))); ?>
           <?php print render($page['header']); ?>
         </div>
       <?php endif; ?>

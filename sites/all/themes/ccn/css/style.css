@@ -196,17 +196,17 @@ div.status {
   display: block;
   float: left;
 }
-#navigation .main-menu {
+#header-region .main-menu {
   font-size: 18px;
   font-family: "微软雅黑";
   margin: 16px 0 0 30px;
 }
-#navigation .main-menu li {
+#header-region .main-menu li {
   display: block;
   list-style: none;
   float: left;
 }
-#navigation .main-menu a {
+#header-region .main-menu a {
   display: block;
   color: #fff;
   width: 60px;
@@ -215,8 +215,8 @@ div.status {
   text-align: center;
   margin: 0 10px;
 }
-#navigation .main-menu a:hover,
-#navigation .main-menu a.active {
+#header-region .main-menu a:hover,
+#header-region .main-menu a.active {
   background: #3399cc;
 }
 #navigation .sub-menu {
