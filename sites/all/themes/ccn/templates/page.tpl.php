@@ -15,7 +15,7 @@
       <?php endif; ?>
 
       <?php if ($page['header']): ?>
-        <div id="header-region">
+        <div id="header-region" class="clearfix">
           <?php print theme('links', array('links' => $main_menu, 'attributes' => array('id' => 'primary', 'class' => array('links', 'clearfix', 'main-menu')))); ?>
           <?php print render($page['header']); ?>
         </div>
